@@ -1,3 +1,5 @@
+# Chapter 0 
+
 ## Create a React project by
 
 1. install Node
@@ -12,10 +14,41 @@
 2. Run  server using command `npm start`. 
 3. Go to page `http://localhost:3000/` to  see your application running live.
 
+# Chapter 1 : React in 100 Seconds
+
+React a js Library  released in 2013.
+
+To build UI components that reperesent logical reusable  pieces of user interface.
+
+**JSX** : is an extension to JavaScript language, used to write HTML elements and component structure inside JS files. 
+
+Component can be built as easy as just by javascript function 
+
+Return value from function is Html/UI written in JSX.
+
+To pass input to component use props and reference in the jsx.
+
+If value changes react will update component.
+
+If we internal state, we use state hook.
+
+Hook is fuction  which allows us to add some functionality to our functional component by returning a variable and function to change its value.
+
+use `useState` from react to create a state hook. It returns an array containing current state and a function.
+
+
+Reacts Extensions:
+
+    1. Static Site : Gatsby
+    2. Server  Side Rendering (SSR): NextJS 
+    3. Animation : spring
+    4. Form Handling : formik
+    5. State Management: Redux, mobx,flux, recoil,xstate
+    6. Mobile appilcations: React Native
 
 
 
-# Getting Started with React 
+# Appendix React DOCS : Getting Started with React 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
